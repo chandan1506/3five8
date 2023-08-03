@@ -9,7 +9,11 @@
   <form id="bookingForm" >
 
     <label for="facility">Facility :-</label>
-    <input type="text" id="facility" name="facility" placeholder="Enter Facility here" required>
+    <select id="facility" name="facility" required>
+      <option value="" >Select Facility</option>
+      <option value="Clubhouse">Clubhouse</option>
+      <option value="Tennis Court">Tennis Court</option>
+    </select>
 
     <label for="date">Date :-</label>
     <input type="date" id="date" name="date" required>

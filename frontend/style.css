@@ -21,6 +21,7 @@ body {
   
   label,
   input,
+  select,
   button {
     display: block;
     margin: 10px 0;
@@ -32,6 +33,13 @@ body {
     border-radius: 7px;
     border-color: tomato;
   }
+  select{
+    width:362px;
+    height:35px;
+    border-radius: 7px;
+    border: 2px solid tomato;
+  }
+
 
   button {
     width: 50%;
@@ -53,7 +61,8 @@ body {
     color: black;
   }
 
-  input{
+  input,
+  select{
     padding-left: 10px;
   }
 

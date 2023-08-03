@@ -30,4 +30,3 @@ bookingForm.addEventListener('submit', async (e) => {
   }
 });
 
-  
