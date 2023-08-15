@@ -63,7 +63,7 @@ Form.addEventListener('submit', async (e) => {
   const end_time=endTime.value;
 
 
-  const res = await fetch('http://localhost:3000/booking', {
+  const res = await fetch('https://threefive8.onrender.com/booking', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
